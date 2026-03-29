@@ -58,7 +58,14 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
   <!-- Template styles-->
   <link rel="stylesheet" href="css/style.css">
-
+    
+    <style>
+        /* This creates an invisible buffer so the header doesn't cover the title */
+        #ts-service-area {
+            scroll-margin-top: 50px; /* Adjust this number based on your header's height */
+        }
+    </style>    
+    
 </head>
 <body>
   <div class="body-inner">
@@ -135,10 +142,13 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="container">
         <div class="box-slider-content">
           <div class="box-slider-text">
-              <h2 class="box-slide-title">Entrepreneur génital</h2>
+              <h2 class="box-slide-title">Entrepreneur général</h2>
               <h3 class="box-slide-sub-title">RIVA Construction Inc.</h3>
               <p class="box-slide-description">Faites affaires avec nous pour tous vos
               projets de cuisine, salle de bain, balcon, terrasse, corniche et plus encore</p>
+              <li class="header-get-a-quote">
+                  <a class="btn btn-primary" href="#ts-service-area">NOS SERVICES</a>
+              </li>
           </div>
         </div>
     </div>
@@ -153,6 +163,9 @@ FACEBOOK: https://www.facebook.com/themefisher
                     <h3 class="box-slide-sub-title">RIVA Construction Inc.</h3>
                     <p class="box-slide-description">Faites affaires avec nous pour tous vos
                         projets de cuisine, salle de bain, balcon, terrasse, corniche et plus encore</p>
+                    <li class="header-get-a-quote">
+                        <a class="btn btn-primary" href="#ts-service-area">NOS SERVICES</a>
+                    </li>
                 </div>
             </div>
         </div>
@@ -167,8 +180,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <div class="container">
     <div class="row text-center">
         <div class="col-12">
-          <h2 class="section-title">We Are Specialists In</h2>
-          <h3 class="section-sub-title">What We Do</h3>
+          <h3 class="section-sub-title">NOS SERVICES</h3>
         </div>
     </div>
     <!--/ Title row end -->
@@ -180,7 +192,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Home Construction</a></h3>
+                <h3 class="service-box-title"><a href="#">Cuisine</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 1 end -->
@@ -190,7 +202,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon2.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Building Remodels</a></h3>
+                <h3 class="service-box-title"><a href="#">Salle de bain</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 2 end -->
@@ -200,7 +212,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon3.png"  alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Interior Design</a></h3>
+                <h3 class="service-box-title"><a href="#">Balcon</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 3 end -->
@@ -217,7 +229,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon4.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Exterior Design</a></h3>
+                <h3 class="service-box-title"><a href="#">Terrasse</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 4 end -->
@@ -227,7 +239,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon5.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Renovation</a></h3>
+                <h3 class="service-box-title"><a href="#">Corniche</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 5 end -->
@@ -237,7 +249,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                 <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
               </div>
               <div class="ts-service-box-info">
-                <h3 class="service-box-title"><a href="#">Safety Management</a></h3>
+                <h3 class="service-box-title"><a href="#">Gestion de projet</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
           </div><!-- Service 6 end -->
@@ -252,8 +264,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">
-        <h2 class="section-title">Work of Excellence</h2>
-        <h3 class="section-sub-title">Recent Projects</h3>
+        <h3 class="section-sub-title">NOS PROJETS</h3>
       </div>
     </div>
     <!--/ Title row end -->
@@ -265,23 +276,18 @@ FACEBOOK: https://www.facebook.com/themefisher
             <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
           </label>
           <label for="commercial">
-            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Commercial
+            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Rénovation intérieure
           </label>
           <label for="education">
-            <input type="radio" name="shuffle-filter" id="education" value="education">Education
+            <input type="radio" name="shuffle-filter" id="education" value="education">Balcon
           </label>
           <label for="government">
-            <input type="radio" name="shuffle-filter" id="government" value="government">Government
+            <input type="radio" name="shuffle-filter" id="government" value="government">Terrasse
           </label>
           <label for="infrastructure">
-            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Infrastructure
+            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Corniche
           </label>
-          <label for="residential">
-            <input type="radio" name="shuffle-filter" id="residential" value="residential">Residential
-          </label>
-          <label for="healthcare">
-            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Healthcare
-          </label>
+
         </div><!-- project filter end -->
 
 
@@ -450,88 +456,9 @@ FACEBOOK: https://www.facebook.com/themefisher
 </section>
 <!--/ subscribe end -->
 
-<section id="news" class="news">
-  <div class="container">
-    <div class="row text-center">
-        <div class="col-12">
-          <h2 class="section-title">Work of Excellence</h2>
-          <h3 class="section-sub-title">Recent Projects</h3>
-        </div>
-    </div>
-    <!--/ Title row end -->
-
-    <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="news-single.html" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news1.jpg" alt="img">
-                </a>
-              </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">We Just Completes $17.6 million Medical Clinic in Mid-Missouri</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> July 20, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 1st post col end -->
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="news-single.html" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news2.jpg" alt="img">
-                </a>
-              </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">Thandler Airport Water Reclamation Facility Expansion Project Named</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> June 17, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 2nd post col end -->
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="news-single.html" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news3.jpg" alt="img">
-                </a>
-              </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">Silicon Bench and Cornike Begin Construction Solar Facilities</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> Aug 13, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 3rd post col end -->
-    </div>
-    <!--/ Content row end -->
-
-    <div class="general-btn text-center mt-4">
-        <a class="btn btn-primary" href="news-left-sidebar.html">See All Posts</a>
-    </div>
-
-  </div>
-  <!--/ Container end -->
-</section>
-<!--/ News end -->
-
+      
+      
+      
   <footer id="footer" class="footer bg-overlay">
     <div class="footer-main">
       <div class="container">
